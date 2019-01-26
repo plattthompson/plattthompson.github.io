@@ -1,0 +1,164 @@
+body {
+	margin: auto 0;
+	background-color: #FAFAF2;
+}
+
+p, div {
+	color: #535762;
+}
+
+.intro-header {
+	font-family: 'Montserrat';
+	font-size: 3em;
+	background-color: #CDEBE9;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 5px 5px #888888;
+}
+
+.intro-paragraph {
+	font-family: 'Montserrat';
+	font-size: 1.5em;
+	background-color: #FCD0B7;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 5px 5px #888888;
+}
+
+h2 {
+	font-family: 'Montserrat';
+	padding: 80px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 3em;
+}
+
+/*NAV BAR*/
+
+.main-nav {
+	color: white;
+	display: flex;
+	list-style: none;
+	margin: 0;
+}
+
+.nav-size {
+	font-size: 3em;
+}
+
+.contact-size {
+	font-size: 2em;
+}
+
+.email {
+	font-family: 'Montserrat';
+	font-size: .5em;
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: white;
+	border-radius: 10px;
+	padding: 8px;
+	box-shadow: 5px 5px #888888;
+}
+
+li, a {
+	color: #CCCCCC;
+	text-decoration: none;
+	font-family: 'Montserrat';
+	font-size: 1em;
+}
+
+.push {
+	margin-left: 47%;
+	/*margin-left: auto;
+	margin-right: 3.3%;*/
+	margin-top: 15px;
+	transition: 3s;
+}
+
+.sticky {
+	position: fixed;
+	width: 100%;
+}
+
+/*COVER*/
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 25%;
+	margin-right: 25%;
+	height: 90vh;
+	margin-bottom: 5%;
+}
+
+/*TOOLS*/
+
+.tools {
+	/*background-color: #CDEBE9;*/
+	background-color: #cbe5c1;
+}
+
+.tools-icons {
+	/*display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 30px;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-left: 13%;
+	position: relative;
+/*	padding: 70px;*/
+	padding-bottom: 70px;
+}
+
+.icon-labels {
+	color: #535762;
+	font-size: 30px;
+/*	font-style: italic;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 57%;
+	margin-bottom: 10%;
+}
+
+.expand {
+	transition: all .5s;
+}
+
+.expand:hover {
+	transform: scale(1.1);
+}
+
+/*PROJECTS*/
+
+.projects {
+	background-color: #ffffba;
+	/*background-color: #FFF9D3;*/
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr;
+}
+
+/*FOOTER*/
+
+footer {
+	font-family: 'Montserrat';
+	color: #535762;
+	text-align: center;
+	margin: 20px;
+}
+
+
+
+
+
+
+
