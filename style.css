@@ -96,7 +96,7 @@ li, a {
 /*TOOLS*/
 
 .tools {
-	/*background-color: #CDEBE9;*/
+/*	background-color: #CDEBE9;*/
 	background-color: #cbe5c1;
 }
 
@@ -138,7 +138,6 @@ li, a {
 
 .projects {
 	background-color: #ffffba;
-	/*background-color: #FFF9D3;*/
 }
 
 .grid-wrapper {
@@ -149,6 +148,11 @@ li, a {
 
 .project-img {
 	border-radius: 30px;
+}
+
+.project-img:hover {
+	opacity: 1;
+	transition: .3s ease-in-out;
 }
 
 .project-desc {
@@ -166,7 +170,7 @@ li, a {
 	text-transform: uppercase;
 	letter-spacing: 1em;
 	font-size: 2em;
-	color: black;
+	color: gray;
 }
 
 /*FOOTER*/
