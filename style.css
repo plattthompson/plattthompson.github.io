@@ -118,8 +118,9 @@ li, a {
 	border-radius: 10px;
 	padding: 20px;
 	box-shadow: 5px 5px #888888;
-	width: 75%;
-	margin-top: 0px;
+	width: 65%;
+	margin-top: 0em;
+	margin-bottom: 5em;
 }
 
 /*TOOLS*/
@@ -192,6 +193,10 @@ li, a {
 	align-items: center;*/
 }
 
+.projects-header {
+	margin-bottom: 0em;
+}
+
 .project-img {
 	border-radius: 30px;
 	box-shadow: 5px 5px #888888;
@@ -238,10 +243,5 @@ footer {
 	text-align: center;
 	margin: 20px;
 }
-
-
-
-
-
 
 
