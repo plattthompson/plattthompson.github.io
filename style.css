@@ -129,37 +129,22 @@ li, a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/*Light blue*/
-	/*background-color: #CDEBE9;*/
-	/*Light purple*/
-	/*background-color: #E8D6E4;*/
-	/*Pink*/
-	/*background-color: #FAE3E9;*/
-	/*Light blue*/
-	/*background-color: #DBE1E1;*/
-	/*Dark pink*/
-	/*background-color: #EBBAB5;*/
+	background-color: #DBE1E1;
 }
 
 .tools-icons {
-	/*display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: 1fr 1fr 1fr;
-	grid-gap: 30px;*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 	margin-left: 13%;
 	position: relative;
-/*	padding: 70px;*/
 	padding-bottom: 70px;
 }
 
 .icon-labels {
 	color: #535762;
 	font-size: 30px;
-/*	font-style: italic;*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -184,15 +169,6 @@ li, a {
 	align-items: center;
 }
 
-.grid-wrapper {
-	/*display: grid;
-	grid-gap: 20px;
-	grid-template-columns: 1fr;*/
-	/*display: flex;
-	flex-direction: column;
-	align-items: center;*/
-}
-
 .projects-header {
 	margin-bottom: 0em;
 }
@@ -200,11 +176,12 @@ li, a {
 .project-img {
 	border-radius: 30px;
 	box-shadow: 5px 5px #888888;
+	transition: .4s;
 }
 
 .project-img:hover {
-	opacity: 1;
-	transition: .3s ease-in-out;
+	filter: brightness(50%);
+	transition: .4s;
 }
 
 .project-desc {
@@ -219,20 +196,157 @@ li, a {
 	font-family: 'Lobster';
 	color: #3C74F5;
 	font-size: 5em;
+	margin-top: 0.3em;
 }
 
-#forecast {
+.forecast {
 	font-family: "Audiowide";
 	font-size: 3.5em;
 	color: black;
 }
 
-#throw-shade {
+.throw-shade {
 	font-family: 'Oswald', sans serif;
 	text-transform: uppercase;
 	letter-spacing: 1em;
 	font-size: 2em;
 	color: gray;
+}
+
+/*-----IDIOM BUTTONS-----*/
+
+.btn-container1 {
+	position: relative;
+}
+
+.btn1 {
+	visibility: hidden;
+	position: absolute;
+	top: 45%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #3C74F5;
+	font-family: 'Montserrat';
+	border: none;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.btn2 {
+	visibility: hidden;
+	position: absolute;
+	top: 45%;
+	right: 30%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #535762;
+	font-family: 'Montserrat';
+	border: none;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.btn-container1:hover .btn1 {
+	visibility: visible;
+	transition: .4s;
+}
+
+.btn-container1:hover .btn2 {
+	visibility: visible;
+	transition: .4s;
+}
+
+/*-----FORECAST BUTTONS-----*/
+
+.btn-container2 {
+	position: relative;
+}
+
+.btn3 {
+	visibility: hidden;
+	position: absolute;
+	top: 45%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #42586E;
+	font-family: 'Montserrat';
+	border: none;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.btn4 {
+	visibility: hidden;
+	position: absolute;
+	top: 45%;
+	right: 30%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #535762;
+	font-family: 'Montserrat';
+	border: none;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.btn-container2:hover .btn3 {
+	visibility: visible;
+	transition: .4s;
+}
+
+.btn-container2:hover .btn4 {
+	visibility: visible;
+	transition: .4s;
+}
+
+/*-----THROW SHADE BUTTONS-----*/
+
+.btn-container3 {
+	position: relative;
+}
+
+.btn5 {
+	visibility: hidden;
+	position: absolute;
+	top: 45%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #F9CC4F;
+	font-family: 'Montserrat';
+	border: none;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.btn6 {
+	visibility: hidden;
+	position: absolute;
+	top: 45%;
+	right: 30%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #535762;
+	font-family: 'Montserrat';
+	border: none;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.btn-container3:hover .btn5 {
+	visibility: visible;
+	transition: .4s;
+}
+
+.btn-container3:hover .btn6 {
+	visibility: visible;
+	transition: .4s;
+}
+
+button {
+	outline: none;
 }
 
 /*FOOTER*/
@@ -244,4 +358,21 @@ footer {
 	margin: 20px;
 }
 
+.icon-link {
+	color: #535762;
+	margin-bottom: 0.4em;
+	margin-top: 0em;
+	margin-left: 0.2em;
+	margin-right: 0.2em;
+	transition: .4s;
+}
 
+.github-icon:hover {
+	color: black;
+	transition: .4s;
+}
+
+.linkedin-icon:hover {
+	color: #0077B5;
+	transition: .4s;
+}

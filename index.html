@@ -3,16 +3,14 @@
 <head>
 	<title>Platt Thompson | Web Developer</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:700|Montserrat|Audiowide|Oswald|Lobster" rel="stylesheet">
 	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 	<link rel="icon" href="./favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
-<body>
+<body class="animated fadeIn">
 	<nav class="sticky">
 		<ul class="main-nav animated fadeIn">
 			<li class="nav-size">Platt Thompson</li>
@@ -37,30 +35,63 @@
 	<div class="tools">
 		<h2>What I use</h2>
 		<div class="tools-icons">
-			<a><img src="./img/html5.svg" class="expand" width="300px" height="150px"><span class="icon-labels">HTML 5</span></a>
-			<a><img src="./img/css3.svg" class="expand" width="300px" height="150px"><span class="icon-labels">CSS 3</span></a>
-			<a><img src="./img/js.svg" class="expand" width="300px" height="150px"><span class="icon-labels">Javascript</span></a>
-			<a><img src="./img/react.svg" class="expand" width="300px" height="150px"><span class="icon-labels">React</span></a>
-			<a><img src="./img/bootstrap.svg" class="expand" width="300px" height="150px"><span class="icon-labels">Bootstrap</span></a>
-			<a><img src="./img/github.svg" class="expand" width="300px" height="150px"><span class="icon-labels">GitHub</span></a>
-			<a><img src="./img/node.svg" class="expand" width="300px" height="150px"><span class="icon-labels">Node.js</span></a>
-			<a><img src="./img/postgresql.svg" class="expand" width="300px" height="150px"><span class="icon-labels">PostgreSQL</span></a>
-			<a><img src="./img/git.svg" class="expand" width="300px" height="150px"><span class="icon-labels">Git</span></a>
+			<a><img src="./img/html5.svg" alt="html icon"class="expand" width="300px" height="150px"><span class="icon-labels">HTML 5</span></a>
+			<a><img src="./img/css3.svg" alt="css icon"class="expand" width="300px" height="150px"><span class="icon-labels">CSS 3</span></a>
+			<a><img src="./img/js.svg" alt="js icon"class="expand" width="300px" height="150px"><span class="icon-labels">Javascript</span></a>
+			<a><img src="./img/react.svg" alt="react icon"class="expand" width="300px" height="150px"><span class="icon-labels">React</span></a>
+			<a><img src="./img/bootstrap.svg" alt="bootstrap icon"class="expand" width="300px" height="150px"><span class="icon-labels">Bootstrap</span></a>
+			<a><img src="./img/github.svg" alt="github icon"class="expand" width="300px" height="150px"><span class="icon-labels">GitHub</span></a>
+			<a><img src="./img/node.svg" alt="github icon"class="expand" width="300px" height="150px"><span class="icon-labels">Node.js</span></a>
+			<a><img src="./img/postgresql.svg" alt="github icon"class="expand" width="300px" height="150px"><span class="icon-labels">PostgreSQL</span></a>
+			<a><img src="./img/git.svg" alt="github icon"class="expand" width="300px" height="150px"><span class="icon-labels">Git</span></a>
 		</div>
 	</div>
-	<div class="grid-wrapper projects">
+	<div class="projects">
 		<h2 class="projects-header">Projects</h2>
 			<h3 class="idiom">idiom</h3>
-			<img src="./img/idiom-gif.gif" class="project-img">
+			<div class="btn-container1">
+				<img src="./img/idiom-gif.gif" alt="idiom gif" class="project-img">
+				<form action="https://idiomlanguagelearning.herokuapp.com/" target="_blank">
+					<button class="btn1 f6 grow no-underline br-pill ph3 pv2 mb2 dib white">View app</button>
+				</form>
+				<form action="https://github.com/plattthompson/idiom" target="_blank">
+					<button class="btn2 f6 grow no-underline br-pill ph3 pv2 mb2 dib white">View code</button>
+				</form>
+			</div>
 			<p class="project-desc">This full stack app uses React, Node.js, and PostgreSQL to tell you how often words and sentences are used.</p>
-			<h3 id="forecast">Forecast</h3>
-			<img src="./img/forecast-stormy.gif" class="project-img">
+			<h3 class="forecast">Forecast</h3>
+			<div class="btn-container2">
+				<img src="./img/forecast-stormy.gif" alt="forecast gif" class="project-img">
+				<form action="https://plattthompson.github.io/forecast/" target="_blank">
+					<button class="btn3 f6 grow no-underline br-pill ph3 pv2 mb2 dib white">View app</button>
+				</form>
+				<form action="https://github.com/plattthompson/forecast" target="_blank">
+					<button class="btn4 f6 grow no-underline br-pill ph3 pv2 mb2 dib white">View code</button>
+				</form>
+			</div>
 			<p class="project-desc">Using an API from <a href="https://openweathermap.org/" target="_blank">Open Weather Map</a>, Forecast can tell you the temperature, humidity, and general conditions of any city in the world.</p>
-			<h3 id="throw-shade">Throw Shade</h3>
-			<img src="./img/throw-shade-gif.gif" class="project-img">
-			<p class="project-desc">throw shade description</p>
+			<h3 class="throw-shade">Throw Shade</h3>
+			<div class="btn-container3">
+				<img src="./img/throw-shade-gif.gif" alt="throw shade gif" class="project-img">
+				<form action="https://plattthompson.github.io/throw-shade/" target="_blank">
+					<button class="btn5 f6 grow no-underline br-pill ph3 pv2 mb2 dib white">View app</button>
+				</form>
+				<form action="https://github.com/plattthompson/throw-shade" target="_blank">
+					<button class="btn6 f6 grow no-underline br-pill ph3 pv2 mb2 dib white">View code</button>
+				</form>
+			</div>
+			<p class="project-desc">Throw Shade can help anyone from a graphic designer to a home decorator choose suitable color combinations for a site, room, or layout.</p>
 	</div>
-	<footer>Platt Thompson © 2019</footer>
+	<footer>
+		<a href="https://github.com/plattthompson" target="_blank" rel="external noopener noreferer">
+			<i class="fab fa-github fa-3x icon-link github-icon"></i>
+		</a>
+		<a href="https://www.linkedin.com/in/platt-thompson" target="_blank" rel="external noopener noreferer">
+			<i class="fab fa-linkedin fa-3x icon-link linkedin-icon"></i>
+		</a>
+		<br>
+		<span>© <script type="text/javascript">document.write(new Date().getFullYear());</script> Platt Thompson</span>
+	</footer>
 	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
