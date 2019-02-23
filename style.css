@@ -53,10 +53,7 @@ li, a {
 
 .push {
 	margin-left: 47%;
-	/*margin-left: auto;
-	margin-right: 3.3%;*/
 	margin-top: 15px;
-	/*transition: 3s;*/
 }
 
 .sticky {
@@ -100,10 +97,6 @@ li, a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/*margin-left: 25%;
-	margin-right: 25%;
-	height: 90vh;*/
-	/*margin-bottom: 5%;*/
 	background-color: #cbe5c1;
 }
 
