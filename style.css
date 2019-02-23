@@ -17,7 +17,7 @@ h2 {
 }
 
 li, a {
-	color: #CCCCCC;
+	color: #B3B3B3;
 	text-decoration: none;
 	font-family: 'Montserrat';
 	font-size: 1em;
@@ -38,6 +38,16 @@ li, a {
 
 .contact-size {
 	font-size: 2em;
+}
+
+.contact-style {
+	cursor: pointer;
+	transition: .4s;
+}
+
+.contact-style:hover {
+	color: #FFC414;
+	transition: .4s;
 }
 
 .email {
@@ -240,12 +250,7 @@ li, a {
 	transition: .4s;
 }
 
-.btn-container1:hover .btn1 {
-	visibility: visible;
-	transition: .4s;
-}
-
-.btn-container1:hover .btn2 {
+.btn-container1:hover .btn1, .btn-container1:hover .btn2 {
 	visibility: visible;
 	transition: .4s;
 }
@@ -284,12 +289,7 @@ li, a {
 	transition: .4s;
 }
 
-.btn-container2:hover .btn3 {
-	visibility: visible;
-	transition: .4s;
-}
-
-.btn-container2:hover .btn4 {
+.btn-container2:hover .btn3, .btn-container2:hover .btn4 {
 	visibility: visible;
 	transition: .4s;
 }
@@ -328,12 +328,7 @@ li, a {
 	transition: .4s;
 }
 
-.btn-container3:hover .btn5 {
-	visibility: visible;
-	transition: .4s;
-}
-
-.btn-container3:hover .btn6 {
+.btn-container3:hover .btn5, .btn-container3:hover .btn6 {
 	visibility: visible;
 	transition: .4s;
 }
