@@ -155,14 +155,6 @@ li, a {
 	margin-bottom: 10%;
 }
 
-.expand {
-	transition: all .5s;
-}
-
-.expand:hover {
-	transform: scale(1.1);
-}
-
 /*PROJECTS*/
 
 .projects {
