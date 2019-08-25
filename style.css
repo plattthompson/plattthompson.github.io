@@ -187,11 +187,25 @@ li, a {
 	margin-bottom: 4em;
 }
 
+.noteworthy {
+	font-family: 'Raleway', sans-serif;
+	color: #5F885F;
+	font-size: 3.5em;
+	margin-top: 0.6em;
+}
+
 .idiom {
 	font-family: 'Lobster';
 	color: #3C74F5;
 	font-size: 5em;
 	margin-top: 0.3em;
+}
+
+.milam {
+	font-family: Fjalla One;
+	font-size: 3.5em;
+	text-transform: uppercase;
+	/*color: #141313;*/
 }
 
 .forecast {
@@ -208,13 +222,52 @@ li, a {
 	color: gray;
 }
 
-/*-----IDIOM BUTTONS-----*/
+/*-----NOTEWORTHY BUTTONS-----*/
 
-.btn-container1 {
+.noteworthy-btn-container {
 	position: relative;
 }
 
-.btn1 {
+.noteworthy-project-btn {
+	visibility: hidden;
+	position: absolute;
+	top: 45%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #5F885F;
+	font-family: 'Montserrat';
+	border: none;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.noteworthy-code-btn {
+	visibility: hidden;
+	position: absolute;
+	top: 45%;
+	right: 30%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #535762;
+	font-family: 'Montserrat';
+	border: none;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.noteworthy-btn-container:hover .noteworthy-project-btn, .noteworthy-btn-container:hover .noteworthy-code-btn {
+	visibility: visible;
+	transition: .4s;
+}
+
+/*-----IDIOM BUTTONS-----*/
+
+.idiom-btn-container {
+	position: relative;
+}
+
+.idiom-project-btn {
 	visibility: hidden;
 	position: absolute;
 	top: 45%;
@@ -228,7 +281,7 @@ li, a {
 	transition: .4s;
 }
 
-.btn2 {
+.idiom-code-btn {
 	visibility: hidden;
 	position: absolute;
 	top: 45%;
@@ -242,18 +295,43 @@ li, a {
 	transition: .4s;
 }
 
-.btn-container1:hover .btn1, .btn-container1:hover .btn2 {
+.idiom-btn-container:hover .idiom-project-btn, .idiom-btn-container:hover .idiom-code-btn {
+	visibility: visible;
+	transition: .4s;
+}
+
+/*-----VINCE MILAM BUTTONS-----*/
+
+.milam-btn-container {
+	position: relative;
+}
+
+.milam-project-btn {
+	visibility: hidden;
+	position: absolute;
+	top: 45%;
+	left: 42.5%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #535762;
+	font-family: 'Montserrat';
+	border: none;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.milam-btn-container:hover .milam-project-btn, .milam-btn-container:hover .milam-code-btn {
 	visibility: visible;
 	transition: .4s;
 }
 
 /*-----FORECAST BUTTONS-----*/
 
-.btn-container2 {
+.forecast-btn-container {
 	position: relative;
 }
 
-.btn3 {
+.forecast-project-btn {
 	visibility: hidden;
 	position: absolute;
 	top: 45%;
@@ -267,7 +345,7 @@ li, a {
 	transition: .4s;
 }
 
-.btn4 {
+.forecast-code-btn {
 	visibility: hidden;
 	position: absolute;
 	top: 45%;
@@ -281,18 +359,18 @@ li, a {
 	transition: .4s;
 }
 
-.btn-container2:hover .btn3, .btn-container2:hover .btn4 {
+.forecast-btn-container:hover .forecast-project-btn, .forecast-btn-container:hover .forecast-code-btn {
 	visibility: visible;
 	transition: .4s;
 }
 
 /*-----THROW SHADE BUTTONS-----*/
 
-.btn-container3 {
+.throw-shade-btn-container {
 	position: relative;
 }
 
-.btn5 {
+.throw-shade-project-btn {
 	visibility: hidden;
 	position: absolute;
 	top: 45%;
@@ -306,7 +384,7 @@ li, a {
 	transition: .4s;
 }
 
-.btn6 {
+.throw-shade-code-btn {
 	visibility: hidden;
 	position: absolute;
 	top: 45%;
@@ -320,7 +398,7 @@ li, a {
 	transition: .4s;
 }
 
-.btn-container3:hover .btn5, .btn-container3:hover .btn6 {
+.throw-shade-btn-container:hover .throw-shade-project-btn, .throw-shade-btn-container:hover .throw-shade-code-btn {
 	visibility: visible;
 	transition: .4s;
 }
