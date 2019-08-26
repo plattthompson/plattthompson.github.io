@@ -1,6 +1,6 @@
 //DOM function to prevent HTML-scanning spambots
 
-const contact = document.getElementById("email-appear");
+const contact = document.querySelector("#email-appear");
 
 contact.addEventListener("click", function(e) {
 	e.preventDefault();
