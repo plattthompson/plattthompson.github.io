@@ -1,4 +1,4 @@
-//DOM function to prevent HTML-scanning spambots
+//DOM function to prevent HTML-crawling spambots
 
 const contact = document.querySelector("#email-appear");
 

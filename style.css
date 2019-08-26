@@ -463,7 +463,6 @@ footer {
 
 	.contact-size {
 		font-size: 4em;
-		z-index: -1;
 	}
 
 	.email {
@@ -506,6 +505,27 @@ footer {
 	.about-me-body {
 		font-size: 2.5em;
 		width: 70%;
+	}
+
+	/*TOOLS*/
+
+	.tools {
+		height: 100vh;
+	}
+
+	.tools-header {
+		font-size: 8em;
+	}
+
+	/*PROJECTS*/
+
+	.projects-header {
+		font-size: 8em;
+	}
+
+	.project-desc {
+		font-size: 2.5em;
+		width: 60%;
 	}
 
 }
