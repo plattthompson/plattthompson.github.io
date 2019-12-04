@@ -1,0 +1,35 @@
+html, body {
+	margin: 0;
+	height: 100vh;
+	background-color: #3D4753;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.resume {
+	height: 95vh;
+	box-shadow: 5px 5px 5px #333333;
+}
+
+.portfolio-link {
+	font-family: 'Montserrat';
+	color: white;
+	text-decoration: underline;
+	transition: 0.2s;
+}
+
+.portfolio-link:hover {
+	color: gray;
+	transition: 0.2s;
+}
