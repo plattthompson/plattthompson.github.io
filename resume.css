@@ -18,7 +18,7 @@ a {
 }
 
 .resume {
-	height: 95vh;
+	width: 35%;
 	box-shadow: 5px 5px 5px #333333;
 }
 
@@ -32,4 +32,16 @@ a {
 .portfolio-link:hover {
 	color: gray;
 	transition: 0.2s;
+}
+
+@media (max-width: 1000px) {
+
+	.resume {
+		width: 95%;
+	}
+
+	.portfolio-link {
+		font-size: 2em;
+	}
+
 }
