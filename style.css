@@ -174,7 +174,7 @@ li, a {
 	width: 128px;
 } */
 
-.icon-labels {
+.icon-label {
 	margin: 0.1em 0 1em 0;
 	padding: 0;
 	text-align: center;
@@ -514,20 +514,25 @@ footer {
 	}
 
 	.intro-header {
-		width: 90%;
-		font-size: 7em;
+		width: 80%;
+		margin: 0 auto;
 		padding: 20px;
+		/* font-size: 7em; */
+		font-size: 6em;
 	}
 
 	.intro-paragraph {
+		width: 80%;
+		margin: 1em auto;
+		padding: 20px;
 		font-size: 3.5em;
 	}
 
 	/*ABOUT ME*/
 
-	.about-me {
-		/* height: 100vh; */
-	}
+	/* .about-me {
+		height: 100vh;
+	} */
 
 	.about-me-header {
 		font-size: 8em;
@@ -554,11 +559,17 @@ footer {
 
 	.tools-icons > div {
 		width: 40%;
+		margin: 0;
 	}
-/* 
-	.tech-icon {
-		width: 100%;
+
+	/* .tech-icon {
+		width: 12em;
+		height: 14.0625em;
 	} */
+
+	.icon-label {
+		font-size: 3em;
+	}
 
 	/*PROJECTS*/
 
